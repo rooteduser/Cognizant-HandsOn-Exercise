@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Exercise: Spring Core – Load Country from Spring Configuration XML -->
+    <!-- Define a Country bean with property injection via XML -->
+    <bean id="country" class="com.cognizant.rest.Country">
+        <property name="code" value="IN"/>
+        <property name="name" value="India"/>
+        <property name="capital" value="New Delhi"/>
+    </bean>
+
+</beans>
